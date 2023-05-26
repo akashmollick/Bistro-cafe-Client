@@ -8,10 +8,20 @@ import Slide2 from '../../../assets/home/slide2.jpg'
 import Slide3 from '../../../assets/home/slide3.jpg'
 import Slide4 from '../../../assets/home/slide4.jpg'
 import Slide5 from '../../../assets/home/slide5.jpg'
+import SectionTitles from '../../../components/SectionTitles/SectionTitles';
+
+
 
 const Catagory = () => {
   return (
     <>
+    <section>
+      <SectionTitles
+      heading={"ORDER ONLINE"}
+      subHeading={" From 11 am to 10 pm"}
+      ></SectionTitles>
+        
+        
     <Swiper
         slidesPerView={4}
         spaceBetween={30}
@@ -40,6 +50,7 @@ const Catagory = () => {
         
         
       </Swiper>
+        </section>
     </>
   )
 }
